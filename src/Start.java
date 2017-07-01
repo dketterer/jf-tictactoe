@@ -76,7 +76,7 @@ public class Start {
     private static void spielzug(int spieler) {
         boolean allesOK = false;  // Schleifenbedingung
 
-        //TODO Aufgabe 3
+        //TODO Aufgabe 3a
 
         if (spieler == KREUZ) {
             System.out.print("Spieler 'X', dein Zug, Zuerst die Reihe [1-3] und Enter, dann die Spalte [1-3] und Enter:");
@@ -176,7 +176,7 @@ public class Start {
      * Zelleninhalt mit "spieler" füllen, spieler ist eines von KREUZ, KREIS oder LEER
      */
     private static void zelleZeichnen(int spieler) {
-        // Aufgabe 2b
+        // TODO Aufgabe 2b
 
         // Wenn spieler == KREUZ dann soll " X " ausgegeben werden, bei KREIS " 0 ", sonst nur 3 Leerzeichen "   "
 
